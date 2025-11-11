@@ -24,21 +24,20 @@ venv_name\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 🔐 4. Add Kaggle API Credentials
+### 🔐 Add Kaggle API Credentials
 
-You’ll need a Kaggle API token to download the dataset.
+You’ll need a Kaggle API token to download the dataset:
 
-1. Go to your Kaggle account → Account Settings.
-
-2. Click Create New API Token
-   This downloads a file called `kaggle.json`.
-
+1. Go to your **Kaggle account → Account Settings**.  
+2. Click **Create New API Token**.  
+   - This downloads a file called `kaggle.json`.  
 3. Open `kaggle.json` and copy its contents into a `.env` file at the root of your project:
 
 ```
 KAGGLE_USERNAME=your_kaggle_username
 KAGGLE_KEY=your_kaggle_api_key
 ```
+**Tip**: There is a `.env.example` file included. Simply remove `.example` and use it as your `.env` file.
 
 ### 5. Download the Dataset
-You can downlaod the dataset by running the respective code snippet inside the main.ipynb notebook.
+You can download the dataset by running the respective code snippet inside the `main.ipynb` notebook.

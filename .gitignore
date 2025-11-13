@@ -28,6 +28,9 @@ datasets/
 outputs/
 *.csv
 *.zip
+# Include deliverables folder
+!deliverables/
+!deliverables/*.csv
 
 # --- Logs & temp files ---
 *.log

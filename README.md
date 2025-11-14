@@ -114,4 +114,5 @@ Follow these steps to execute the project in order:
 - Only one AI model (Step 4) needs to be executed for final article generation.  
 - Ensure your virtual environment (`venv_name`) is active before running any notebook.  
 - Intermediate outputs are stored in `outputs/`, final deliverables in `deliverables/`.
+- Under deliverables you may find also the `RoboReviews template.pptx` which we used in our presentation.
 

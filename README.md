@@ -3,7 +3,9 @@
 This project analyzes Amazon product reviews using datasets from Kaggle’s Consumer Reviews of Amazon Products: `https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/data` .
 Because the dataset is large, it is not included in the repository — you will download it locally using the Kaggle API.
 
-## — Setup Guide
+---
+
+# Setup Guide
 
  ### ⚙️ 1. Clone the Repository
 

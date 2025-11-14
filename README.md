@@ -70,9 +70,48 @@ flowchart TD
 
 ```
 ----
-# How to Run
+# How to Run:
 
 Follow these steps to execute the project in order:
 
-1. **Run Classification First**  
-   Open and execute:  
+1. **Run Classification First:**  
+   Open and execute:  `notebooks/main_classification_duda_cleancode.ipynb`
+   
+   **Output:** `outputs/data_with_sentiment_clean.csv`  
+   **Purpose:** Cleans and classifies raw review data.
+
+2. **Run Clustering Next:**  
+   Open and execute:  `notebooks/main_clustering_sofia.ipynb`
+   **Output:** `outputs/sofia_product_clusters.csv`  
+   **Purpose:** Groups products into clusters for summarization.
+
+3. **Run Summarizing:**  
+   Open and execute:  `notebooks/main_summarizing.ipynb`
+   **Inputs:**  
+   - `outputs/misclassified_detailed.csv`  
+   - `outputs/sofia_product_clusters.csv`  
+  **Output:** Combined data ready for AI models.
+
+4. **Generate AI Articles (choose one model)**  
+   - **BART:**  
+     ```
+     notebooks/main_genAI_BART_sofia.ipynb
+     ```  
+     **Output:** `deliverables/generated_articles_bart.csv`  
+   - **GPT-3:**  
+     ```
+     notebooks/main_genAI_GPT_3_Tiago.ipynb
+     ```  
+     **Output:** `deliverables/generated_articles_openai.csv`  
+   - **FLAN-T5:**  
+     ```
+     notebooks/main_genAI_FLAN_T5_Sandra.ipynb
+     ```  
+     **Output:** `deliverables/generated_articles_flan.csv`  
+
+**Notes:**  
+- Run the notebooks in the order listed above.  
+- Only one AI model (Step 4) needs to be executed for final article generation.  
+- Ensure your virtual environment (`venv_name`) is active before running any notebook.  
+- Intermediate outputs are stored in `outputs/`, final deliverables in `deliverables/`.
+

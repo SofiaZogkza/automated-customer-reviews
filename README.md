@@ -26,7 +26,7 @@ venv_name\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 🔐 Add Kaggle API Credentials
+### 🔐 4. Add Kaggle API Credentials
 
 You’ll need a Kaggle API token to download the dataset:
 
@@ -42,7 +42,7 @@ KAGGLE_KEY=your_kaggle_api_key
 **Tip**: There is a `.env.example` file included. Simply remove `.example` and use it as your `.env` file.
 
 ### 5. Download the Dataset
-You can download the dataset by running the respective code snippet inside the `main.ipynb` notebook.
+You can download the dataset by running the respective code snippet inside each `main_<>.ipynb` notebook.
 
 -----
 # Workflow Overview

@@ -52,7 +52,7 @@ The project follows a sequential workflow from raw review data to final AI-gener
 ```mermaid
 flowchart TD
     A[Raw Review Data] --> B[Step 1: Classification<br>main_classification_duda_cleancode.ipynb]
-    B --> C[outputs/misclassified_detailed.csv]
+    B --> C[outputs/data_with_sentiment_clean.csv]
     
     A --> D[Step 2: Clustering<br>main_clustering_sofia.ipynb]
     D --> E[outputs/sofia_product_clusters.csv]

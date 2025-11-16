@@ -42,7 +42,7 @@ KAGGLE_KEY=your_kaggle_api_key
 **Tip**: There is a `.env.example` file included. Simply remove `.example` and use it as your `.env` file.
 
 ### 5. Download the Dataset
-You can download the dataset by running the respective code snippet inside each `main_<>.ipynb` notebook.
+You can download the dataset by running the respective code snippet inside each `main_classification_sofia.ipynb` notebook.
 
 -----
 # Workflow Overview
